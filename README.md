@@ -1,4 +1,4 @@
-# domain.Drone Project
+# Drone Project
 
 This project is a drone and location simulator. It allows you to create drones and locations from an input file and execute a "round" using all the drones.
 
@@ -23,11 +23,12 @@ On all subsequent lines, list the locations you wish to create. Each location is
 
 ## Round
 
-The program executes a "round", in which all drones must be utilized. 
-During my research to implement the logic of allocating the drones to the locations, I studied and understood the concepts of allocation algorithms like (Next Fit), (First Fit), and (Best Fit). 
+The program executes a "round", in which all drones must be utilized.
+During my research to implement the logic of allocating the drones to the locations, I studied and understood the concepts of allocation algorithms like (Next Fit), (First Fit), and (Best Fit).
 Although these algorithms could provide an extremely performant solution, they require significant time to implement correctly.
 Therefore, at this moment, the implementation of the drones' allocation logic to the locations is an open task for future improvement.
-If can research for Bin Packing Problem and have a deep dive.
+To understand better the solution you can research for (Bin Packing Problem) / (Knapsack problem) / (Multiple Knapsack problem)
+and have a deep dive.
 
 ## Execution
 

@@ -5,13 +5,11 @@ public class Drone {
     private final String name;
     private final int capacity;
     private int remainingWeight;
-    private boolean isAvailable;
 
     public Drone(String name, int capacity) {
         this.name = name;
         this.capacity = capacity;
         this.remainingWeight = capacity;
-        this.isAvailable = true;
     }
 
     public String getName() {
@@ -20,14 +18,6 @@ public class Drone {
 
     public int getCapacity() {
         return capacity;
-    }
-
-    public boolean isAvailable() {
-        return isAvailable;
-    }
-
-    public void setAvailable(boolean available) {
-        isAvailable = available;
     }
 
     public boolean canAddItem(Integer packageWeight) {
@@ -40,7 +30,6 @@ public class Drone {
 
     public void reset() {
         this.remainingWeight = capacity;
-        this.isAvailable = true;
     }
 
     public boolean isAtMaximumCapacity() {
